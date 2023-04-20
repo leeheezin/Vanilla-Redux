@@ -8,7 +8,7 @@ const toDo = toDos.find((toDo) => toDo.id === parseInt(myId));
 
 return (
     <>
-    {toDo?.text}
+    <h1>{toDo?.text}</h1>
     Created at: {toDo?.id}
     </>
     );
